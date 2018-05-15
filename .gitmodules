@@ -1,0 +1,12 @@
+[submodule ".config/nvim/bundle/ale"]
+	path = .config/nvim/bundle/ale
+	url = git@github.com:w0rp/ale.git
+[submodule ".config/nvim/bundle/neovim-colors-solarized-truecolor-only"]
+	path = .config/nvim/bundle/neovim-colors-solarized-truecolor-only
+	url = git@github.com:frankier/neovim-colors-solarized-truecolor-only.git
+[submodule ".config/nvim/bundle/vim-airline"]
+	path = .config/nvim/bundle/vim-airline
+	url = git@github.com:vim-airline/vim-airline.git
+[submodule ".config/nvim/bundle/vim-airline-themes"]
+	path = .config/nvim/bundle/vim-airline-themes
+	url = git@github.com:vim-airline/vim-airline-themes.git
