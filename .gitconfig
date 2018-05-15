@@ -1,0 +1,20 @@
+[core]
+	editor = nvim
+[alias]
+	co = checkout
+	b = branch
+	br = branch
+	s = status
+	st = status
+	d = diff
+	pushf = push --force-with-lease  # push force
+	vlog = log --oneline --decorate --all --graph  # visual log
+[user]
+	email = valentin.bremond@scality.com
+	name = Valentin Bremond
+[push]
+	default = simple
+[merge]
+	tool = nvimdiff
+[mergetool "nvimdiff"]
+	cmd = nvim -d "$BASE" "$LOCAL" "$REMOTE" "$MERGED" -u NONE

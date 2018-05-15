@@ -1,0 +1,16 @@
+*
+
+!/.gitignore
+
+# Gitconfig
+!/.gitconfig
+
+!/.config/
+
+# Neovim
+!/.config/nvim
+!/.config/nvim/**
+
+# Fish Shell
+!/.config/fish
+!/.config/fish/**
