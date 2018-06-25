@@ -52,6 +52,11 @@ autocmd VimEnter,WinEnter * call matchadd('NonBreakingSpaces', ' ', 3)
 autocmd VimEnter,WinEnter * highlight NonIndentationTabs ctermbg=red guibg=red
 autocmd VimEnter,WinEnter * call matchadd('NonIndentationTabs', '\([^\t]\)\@<=\t\+', 4)
 
+" Use Python 3 for flake8 and pylint
+let g:ale_python_flake8_executable = 'python3'
+let g:ale_python_flake8_options = '-m flake8'
+let g:ale_python_pylint_executable = 'pylint-3'
+
 " Disable import errors with Pylint
 let g:ale_python_pylint_options = '--disable E0401'
 " Set spaces as indentation for Python files
