@@ -19,6 +19,7 @@ set colorcolumn=120  " display a vertical line at 120 characters
 
 set linebreak  " do not split words over 2 lines
 set breakindent  " set the same indentation to the broke line than the original one
+set breakindentopt=shift:1  " add a space before the continuation line (makes distinction easier)
 
 " Colors in the terminal will be the same as in GUI
 set termguicolors
