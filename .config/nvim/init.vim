@@ -69,7 +69,7 @@ autocmd FileType python set foldmethod=indent
 autocmd FileType yaml,toml setlocal expandtab shiftwidth=2 tabstop=2
 autocmd FileType sh setlocal expandtab shiftwidth=4 tabstop=4
 
-let g:airline_theme='dark'
+let g:airline_theme='cool'
 let g:airline_powerline_fonts = 1
 let g:airline#extensions#tabline#enabled = 1
 
