@@ -26,6 +26,8 @@ set termguicolors
 
 set background=dark
 
+set inccommand=nosplit  " live preview of substitution when using %s/foo/bar
+
 " Search for more auto-completion
 "set path+=**
 
